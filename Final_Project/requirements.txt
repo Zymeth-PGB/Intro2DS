@@ -15,3 +15,8 @@ geopandas==0.14.1
 torch==2.1.0
 torchvision==0.16.0
 openpyxl==3.1.2
+imbalanced-learn==0.11.0
+imblearn==0.0
+
+# Install this for setup file
+# Note: pip install -e . (Do not remove dots)

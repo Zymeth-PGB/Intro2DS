@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Predict house rental prices in Ho Chi Minh City</title>
+    </head>
+
+    <body>
+        <h3>Prediction Form</h3>
+
+        <div>
+            <form action="/result" method="POST">
+                <label for="area">Diện tích</label>
+                <input type="text" id="area" name="area"> [1-15000]m2 <br>
+
+                <label for="bedroom">Số phòng ngủ</label>
+                <select id="bedroom" name="bedroom">
+
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+
+                </select><br>
+
+                <label for="toilet">Nhà vệ sinh</label>
+                <select id="toilet" name="toilet">
+
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select><br>
+
+                <label for="district">Quận</label>
+                <select id="district" name="district">
+
+                    <option value="0">Quận Tân Bình</option>
+                    <option value="1">Quận Phú Nhuận</option>
+                    <option value="2">Quận 3</option>
+                    <option value="3">Quận 10</option>
+                    <option value="4">Quận Bình Thạnh</option>
+                    <option value="5">Quận 1</option>
+                    <option value="6">Quận Gò Vấp</option>
+                    <option value="7">Quận 11</option>
+                    <option value="8">Quận 5</option>
+                    <option value="9">Quận 7</option>
+                    <option value="10">Quận 9</option>
+                    <option value="11">Quận 12</option>
+                    <option value="12">Quận Tân Phú</option>
+                    <option value="13">Quận 4</option>
+                    <option value="14">Quận 8</option>
+                    <option value="15">Quận 6</option>
+                    <option value="16">Quận 2</option>
+                    <option value="17">Quận Bình Tân</option>
+                    <option value="18">Quận Thủ Đức</option>
+                    <option value="19">Huyện Hóc Môn</option>
+                    <option value="20">Huyện Bình Chánh</option>
+                    <option value="21">Huyện Nhà Bè</option>
+                    <option value="22">Huyện Củ Chi</option>
+
+                </select><br>
+
+                <label for="street">Tên Đường</label>
+                <input type="text" id="street" name="street"> <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
