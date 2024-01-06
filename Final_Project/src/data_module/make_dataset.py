@@ -33,7 +33,7 @@ def getLinks():
     page = '&page='
     links = []
 
-    for i in range(1, 101, 1):
+    for i in range(1, 1001, 1):
         if i == 1:
             driver.get(BASE_URL)
         else:
